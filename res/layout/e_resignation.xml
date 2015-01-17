@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/e_resignation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="13dp"
+        android:text="@string/e_resignation_page"
+        android:textColor="@color/oil_green"
+        android:textSize="32sp"
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/e_resignation_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="65dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"        
+        android:text="@string/e_login_email" />
+
+    <TextView
+        android:id="@+id/e_resignation_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="116dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"        
+        android:text="@string/e_login_pwd" />    
+    
+    <EditText
+        android:id="@+id/e_resignation_pwd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="169dp"
+        android:layout_y="114dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/e_resignation_mail"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="62dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:width="260dp" />    
+
+    <Button
+        android:id="@+id/e_unregistration"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="170dp"
+        android:width="140dp"
+        android:height="45dp"
+        android:textSize="20sp"
+        android:onClick="unregisterButton"
+        android:text="@string/e_unregistration" />    
+</AbsoluteLayout>

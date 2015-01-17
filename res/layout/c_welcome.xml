@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:ignore="Deprecated" >
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewpager1"
+    android:layout_width="359dp"
+    android:layout_height="475dp"
+    android:layout_x="-14dp"
+    android:layout_y="55dp" />
+
+    <TextView
+        android:id="@+id/c_codeIntroduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="8dp"
+        android:text="@string/c_bumpSensor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="0dp"
+        android:background="@null"
+        android:src="@drawable/c_pointer" />
+
+</AbsoluteLayout>
